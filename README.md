@@ -6,3 +6,5 @@
 You will find explicit readme files inside each directory
 
 Live site: https://moshe-shop.netlify.app/
+
+* Given that the backend is hosted on a cloud infrastructure, the wake-up time currently stands at approximately 50 seconds.
