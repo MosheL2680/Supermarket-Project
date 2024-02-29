@@ -43,17 +43,15 @@ const Welcome = () => {
           My React app is hosted on Netlify's cloud infrastructure, guaranteeing high availability and optimal performance. Simultaneously, the Django server, meticulously developed by me, operates on a dedicated Render server, providing a reliable backend for a smooth user experience.
         </p>
 
-        <p>Explore the projects on GitHub:</p>
+        <p>Explore the project on GitHub:</p>
 
         <ul style={{ listStyleType: 'none', padding: '0' }}>
-          <li><a href="https://github.com/MosheL2680/react_supermarket.git" target="_blank" rel="noopener noreferrer">React App Repository</a></li>
-          <li><a href="https://github.com/MosheL2680/super_django.git" target="_blank" rel="noopener noreferrer">Django Server Repository</a></li>
-          <li><a href="https://github.com/MosheL2680/admin_react-redux-TS.git" target="_blank" rel="noopener noreferrer">react-redux-TS (admin site) Repository</a></li>
+          <li><a href="https://github.com/MosheL2680/Supermarket-Project.git" target="_blank" rel="noopener noreferrer">Repository</a></li>
         </ul>
 
         <p>Ready to start shopping? Click the link below to browse my categories:</p>
 
-        <Link to={'categories'} style={{ ...linkStyle, [mediaQuery]: { width: '100%' } }}>Explore the Shop</Link><br/><br/><br/>
+        <Link to={'categories'} style={{ ...linkStyle, [mediaQuery]: { width: '100%' } }}>Explore the Shop</Link><br /><br /><br />
       </div>
     </div>
   );
